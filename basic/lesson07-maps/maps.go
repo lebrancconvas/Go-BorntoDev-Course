@@ -14,6 +14,9 @@ func main() {
 	// Update Key-Value Pair. -> mapname[existedkey] = newvalue 
 	stat["atk"] = 250
 
+	// Delete Key-Value Pair. -> delete(mapname, key) 
+	delete(stat, "def") 
+
 	// Print Map. 
 	fmt.Println(stat) 
 }
